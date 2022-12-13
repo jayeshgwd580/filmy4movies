@@ -1,0 +1,256 @@
+.mainCntr{
+    width: 100%;
+    background-color: rgb(245 245 245);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.mhoneCntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.mcard-detail1{
+    flex: 1;
+}
+.mcard-detail{
+    padding: 30px 20px;
+}
+.m-image{
+    width: 250px;
+    height: 370px;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.m-image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mlikes{
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.m-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.m-details h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.m-details h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+.m-details h3 span{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 2px 0px 0px 8px;
+}
+.m-details .release-panel{
+    border: 1px solid #ffffff;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    color: #ffffff;
+}
+.m-details p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.m-details button{
+    border: 1px solid rgb(248, 68, 100);
+    padding: 15px 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 8px;
+    width: 30%;
+    cursor: pointer;
+}
+.m-details button span{
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.mnamecntr{
+    width: 100%;
+    background-color: #333545;
+}
+.movie-details{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.movie-details a{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: inherit;
+    font-family: 'roboto';
+}
+.movie-details a:hover{
+    text-decoration: underline;
+}
+.movie-details .movie-cat{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    gap: 15px;
+}
+.movie-details .movie-cat .cat{
+    color: rgba(255,255,255,.5);
+    font-size: 0.7rem;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+.date-bar{
+    background-color: #ddd5d5;
+}
+.select-dates{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.book-ticket{
+    margin: 20px;
+}
+
+.ticket-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    box-shadow: 0px 1px 0px 0px #a1a5a7;
+}
+.avalable-card{
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 8px;
+    text-transform: uppercase;
+}
+.avalable-card .dotG{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 64);
+}
+.avalable-card .dotO{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 123, 0);
+}
+.avalable-card .lan{
+    border: 1px solid rgb(0, 255, 64);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    height: 12px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .5px;
+    color: rgb(0, 255, 64);
+}
+.ticketbooking{
+    display: flex;
+    padding: 10px 0px;
+    gap: 20px;
+    background-color: #ddd5d5;
+}
+.ticketbooking .heart{
+    padding: 0px 20px;
+}
+.ticketbooking .heart svg{
+    color: #f84464;
+}
+.ticketbooking .details-ticket{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ticketbooking .details-ticket a{
+    text-decoration: none;
+    color: #333;
+}
+.ticketbooking .details-ticket a:hover{
+    text-decoration: underline;
+}
+.ticketbooking .details-ticket .subdetails-ticket{
+    display: flex;
+    gap: 20px;
+}
+.ticketbooking .details-ticket .subdetails-ticket .mticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #4abd5d;
+}
+.ticketbooking .details-ticket .subdetails-ticket .foodandB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(255, 123, 0);
+}
+.ticketbooking .book-cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ticketbooking .book-cntr .book-btn{
+    border: 1px solid rgb(122, 122, 122);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #4abd5d;
+    cursor: pointer;
+}
+.ticketbooking .ticket-info{
+    padding: 0px 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}

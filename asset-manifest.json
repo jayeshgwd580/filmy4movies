@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/filmy4movies/static/css/main.6feb7446.css",
+    "main.js": "/filmy4movies/static/js/main.b41622be.js",
+    "static/media/slick.svg": "/filmy4movies/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/filmy4movies/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/bms.PNG": "/filmy4movies/static/media/bms.0443c4d0ba693736c83b.PNG",
+    "static/media/slick.ttf": "/filmy4movies/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/filmy4movies/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/filmy4movies/index.html",
+    "main.6feb7446.css.map": "/filmy4movies/static/css/main.6feb7446.css.map",
+    "main.b41622be.js.map": "/filmy4movies/static/js/main.b41622be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6feb7446.css",
+    "static/js/main.b41622be.js"
+  ]
+}

@@ -3,6 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import './navbar.css'
 import DehazeIcon from '@mui/icons-material/Dehaze';
+import logo from '../images/bms.PNG';
 
 export default function Navbar() {
   return (
@@ -10,7 +11,7 @@ export default function Navbar() {
         <div className='navbar'>
             <div className='nav-contianer'>
               <div className='first'>
-                <img src="../images/bms.png" alt="" />
+                <img src={logo} alt="logo" />
                 {/* <img src="https://png.pngtree.com/png-vector/20200921/ourlarge/pngtree-red-and-black-logo-png-image_2348180.jpg" alt="" /> */}
                 <input type="text" placeholder='Search for Movies, Events, Plays, Sports and Activities'/>
                 <span style={{color: "red"}}>404 website under construction</span>
